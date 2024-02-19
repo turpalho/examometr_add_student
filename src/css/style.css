@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "FuturaMD";
+    src: url("../fonts/futura_md.otf");
+}
+
+body {
+    --bg-color: var(--tg-theme-bg-color, #fff);
+    background-color: var(--bg-color);
+    color: var(--tg-theme-text-color, #222);
+    color-scheme: var(--tg-color-scheme);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: "FuturaMD", sans-serif;
+}
+
+body.gray {
+    background-color: var(--tg-theme-secondary-bg-color, #efefef);
+}
+
+h2 {
+    color: var(--tg-theme-text-color);
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.fio {
+    color: var(--tg-theme-hint-color);
+    font-size: 18px;
+}
+
+label.left {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input.right {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid var(--tg-theme-link-color, #000);
+    background-color: var(--tg-theme-bg-color, #ffffff);
+    border-radius: 4px;
+    color: var(--tg-theme-text-color, #222222);
+    text-align: start;
+}
+
+form {
+    margin: 20px;
+}
+
+.addBtn {
+    background-color: var(--tg-theme-button-color, #ffffff);
+    color: var(--tg-theme-button-text-color, #000);
+    width: 50px;
+    height: 25px;
+    border-radius: 6px;
+    border-width: 1px;
+    margin-left: 70%;
+}
